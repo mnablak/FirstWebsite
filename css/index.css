@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    left: 0;
+    right: 0;
+    list-style: none;
+}
+
+hr {
+    border: 1px dotted #2A1804;
+    border-style: none none dotted; 
+
+}
+
+/*header and navigation section.*/
+.header{
+    background-color: #fdf9f1;
+}
+
+.logo{
+    padding: 0.3em;
+    padding-bottom: 0em;
+    font-family: 'Comfortaa', cursive;
+    color: #2A1804;
+    font-size: 6rem;
+    text-align: center;
+    height: 100%;
+}
+
+.navbar{
+    align-items: center;
+    line-height: 60px;
+    margin-left: 15em;
+    margin-right: 15em;
+    
+}
+.navbar ul li a{
+    color: #2A1804;
+    font-size: 24px;
+}
+.navbar ul li a:hover{
+    text-decoration: underline black;
+}
+
+.navbar-list{
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    height: auto;
+}
+
+/*articles section */
+.articles{
+    display: flex;
+    margin: 2em;
+    
+}
+.articles h2 {
+    font-size: 60px;
+    height: auto;
+    width: 50%;
+    margin-right: 0.5em;
+}
+.articles p {
+    font-size: 20px;
+    height: auto;
+    width: 50%;
+}
+
+/*more information/books  section*/
+
+.more-info-hr{
+    font-size: 2em;
+    font-weight: 550;
+    margin-left: 1em;
+    margin-top: 0.5em;
+}
+
+.more-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1.5em;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
+.book-item {
+    height: 100%;
+    width: 360px;
+    margin-bottom: 120px;
+    margin-top: 20px;
+    
+}
+
+.book-item img{
+    width: 100%;
+}
+
+.book-item p{
+    font-size: 16px;
+    
+    
+}
+
+.book-item p a{
+    color: #2A1804;
+    font-weight: bold;
+}
+.book-item p a:hover{
+    text-decoration: underline black;
+}
+
+.book-item-big{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 5em;
+}
+
+.book-item-big img{
+   width: 100%;
+   height: auto;
+}
+
+.more-info-big h2{
+    margin: 1em;
+}
+
+/*footer section*/
+
+.footer {
+    padding-top: 10px;
+    background-color: #fdf9f1;
+    color: #2A1804;
+    text-align: center;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.footer a svg{
+    color: #2A1804;
+    height: 30px;
+    width: 30px;
+}
+

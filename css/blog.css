@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    left: 0;
+    right: 0;
+    list-style: none;
+}
+
+.more-info-hr{
+    font-size: 2em;
+    font-weight: 550;
+    margin-left: 1em;
+    margin-top: 0.5em;
+}
+
+.feature{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 15em;
+    margin-bottom: 5em;
+    align-self: center;
+    justify-content: center;
+}
+
+.feature img {
+    width: 30em;
+}
+
+.content {
+    width: 25em;
+}
+
+.feature.left {
+    grid-template-areas: "left right";
+}
+
+.feature .left img{
+    grid-area: left;
+    width: 30em;
+}
