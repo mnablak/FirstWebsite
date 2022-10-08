@@ -147,9 +147,8 @@ hr {
     margin-right: 1em;
 }
 
-.footer a svg{
+.footer a i{
     color: #2A1804;
-    height: 30px;
-    width: 30px;
+    width: 1.5em;
 }
 
